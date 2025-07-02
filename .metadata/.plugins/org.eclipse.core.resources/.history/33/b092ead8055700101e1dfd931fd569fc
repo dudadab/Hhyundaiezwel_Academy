@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>overflow</title>
+	<style type="text/css">	
+	div {
+		width:200px;
+		height:175px;
+		border:solid 1px black;
+		/*overflow:hidden; /*부모 영역을 벗어나는 개체는 모두 감춤*/
+		overflow:scroll;
+	
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="image/image/fashion1.png">
+	    <img src="image/image/fashion2.png">
+	    <img src="image/image/fashion3.png">
+	</div>
+</body>
+</html>
+

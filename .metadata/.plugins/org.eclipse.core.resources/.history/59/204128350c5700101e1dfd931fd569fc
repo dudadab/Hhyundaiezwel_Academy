@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+		#parent {
+    		position:absolute;
+    		width:200px;
+    		height:300px;
+    		border:solid 5px #000;
+    		margin:50px 0 0 50px;
+    	}
+
+		
+	</style>  
+</head>
+<body>
+	<h1>웹 기술-기본</h1>
+	<div id="parent">
+        <div id="HTML">HTML</div>
+        <div id="CSS">CSS</div>
+        <div id="Javascript">Javascript 기초</div>
+	</div>
+</body>
+</html>

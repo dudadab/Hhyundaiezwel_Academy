@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+		ul {list-style-type:none;}
+		/*목록을 좌에서 우로 표현 : display 속성 변경 -> li 태그 display 속성*/
+		li {
+			position:absolute;
+			margin-left:25%;
+		}
+		
+		#spring {margin-left:15%;}
+		#summer {margin-left:30%;}
+		#fall {margin-left:45%;}
+		#winter {margin-left:60%;}
+		
+	</style>  
+</head>
+<body>
+	<h1>웹 기술-기본</h1>
+	<ul>
+		<li id="HTML">HTML</li>
+		<li id="CSS">CSS</li>
+		<li id="Javascript">Javascript 기초</li>
+	</ul>
+</body>
+</html>

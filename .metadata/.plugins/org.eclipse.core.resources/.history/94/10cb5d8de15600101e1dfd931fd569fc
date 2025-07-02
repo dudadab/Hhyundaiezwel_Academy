@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Position 속성</title>
+    <style type="text/css"> 	
+		#boxA, #boxB, #boxC {
+			width:80px;
+			height:80px;
+		}
+		#boxA {background-color:#ff0000;}
+		#boxB {background-color:#00ff00;}
+		#boxC {background-color:#0000ff;}
+	</style>
+</head>
+	
+<body>
+	<div id="parent">
+        <div id="boxA">A</div>
+        <div id="boxB">B</div>
+        <div id="boxC">C</div>
+	</div>
+</body>
+</html>
+
+
+
+
